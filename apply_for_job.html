@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apply_for_job</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Job Application</h1>
+      <h2>Contact Information</h2>
+      <p>Name: <input type="text" name="name" required /></p>
+      <p>Age: <input type="number" name="age" id="age" /></p>
+      <fieldset>
+        <legend>Gender</legend>
+        <p>
+          Male <input type="radio" name="gender" required id="male" /> Female
+          <input type="radio" name="gender" required id="female" />
+        </p>
+      </fieldset>
+      <label> Phone No : </label>
+      <input type="text" name="country code" value="+91" required size="2" />
+      <input type="text" name="phone" required size="10" /> <br />
+      <br />
+      <label> Alternative Phone No : </label>
+      <input type="text" name="ccountry code" value="+91" required size="2" />
+      <input type="text" name="alphone" required size="10" /> <br />
+      <br />
+      <p>
+        Address:
+        <textarea
+          name="address"
+          id="address"
+          cols="100"
+          rows="8"
+          required
+        ></textarea>
+      </p>
+      <p>Email: <input type="email" name="email" id="email" required /></p>
+      <p>
+        Pincode: <input type="number" name="pincode" id="pincode" required />
+      </p>
+      <p>
+        Qualification:
+        <select name="Select" required id="Select">
+          <option value="">--Select Your Qualification--</option>
+          <option value="10th">10th</option>
+          <option value="10th + 12th Eqivalent">10th + 12th Eqivalent</option>
+          <option value="Diploma">Diploma</option>
+          <option value="Degree in any!">Degree in any</option>
+          <option value="Others">Others</option>
+        </select>
+      </p>
+      <p>
+        What you can do as in house workk!!:
+        <textarea
+          name="What you can do as in house workk!!"
+          id="What you can do as in house workk!!"
+          cols="100"
+          rows="5"
+          required
+        ></textarea>
+      </p>
+      <p>
+        What you cannot do as in house workk!!:
+        <textarea
+          name="What you cannot do as in house workk!!"
+          id="What you cannot do as in house workk!!"
+          cols="100"
+          rows="5"
+          required
+        ></textarea>
+      </p>
+      <p>What you can be ?!</p>
+      <p>
+        <select name="sellecttt" id="sellecttt">
+            <option value="">Select your work</option>
+            <option value="Maid">Maid</option>
+            <option value="Housekeeper">Housekeeper</option>
+            <option value="Kitchen work">Kitchen work</option>
+            <option value="Care Taker">Care Taker</option>
+        </select>
+      </p>
+
+      <input type="submit" value="Submit" required />
+    </form>
+  </body>
+</html>
