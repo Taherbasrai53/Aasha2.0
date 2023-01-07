@@ -1,0 +1,116 @@
+body, html {
+    height: 100%;
+}
+h1
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+}
+li
+{
+  margin-left: 50px;
+}
+h3{
+  font-style: bold;
+}
+#home{
+    padding: 3% 15%;
+    background-color: #C5B896;
+    position: relative;
+}
+.navbar
+{
+  font-family: 'Montserrat';
+  margin-bottom: 5%;
+}
+.navbar-brand{
+  font-weight: 400;
+  font-size: 30px;
+}
+.bg {
+    /* The image used */
+
+
+    /* Full height */
+    height: 100%;
+    margin-left: -8px;
+    margin-top: -16px;
+    margin-right: -8px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.flexbox-2{
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+}
+.logo{
+    margin: 17px 23px;
+}
+.padding{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.705);
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.padding a{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 25px;
+    text-indent: 50px;
+    color: #000000;
+    text-decoration: none;
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 17px;
+}
+.box{
+    font-family: 'Montserrat-regular-400';
+    border-radius: 40px;
+    margin-left: 30px;
+}
+
+.inside{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+
+    margin-top: 5rem;
+    color: #000000;
+}
+.col-lg-6{
+  padding-left: 0%;
+}
+.base
+{
+  margin-top: 7%;
+}
+.inside-image{
+  width:450px;
+  position: relative;
+  left: 40px;
+}
+
+/* credentials */
+
+#credentials{
+  background-color: #fff;
+  padding: 7% 13%;
+  position: relative;
+  bottom: 300px;
+  z-index: 1;
+}
+.credential-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  margin-bottom: 1rem;
+  color: #579BB1;
+}
