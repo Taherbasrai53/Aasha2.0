@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apply_for_job</title>
+    <link rel="stylesheet" href="Style/style.css">
   </head>
   <body>
     <form action="">
       <h1>Job Application</h1>
-      <h2>Contact Information</h2>
+      <h2>Contact Information !!</h2>
       <p>Name: <input type="text" name="name" required /></p>
       <p>Age: <input type="number" name="age" id="age" /></p>
       <fieldset>
         <legend>Gender</legend>
         <p>
-          Male <input type="radio" name="gender" required id="male" /> Female
+          Male 
+          <input type="radio" name="gender" required id="male" /> 
+          Female
           <input type="radio" name="gender" required id="female" />
+          Other
+          <input type="radio" name="gender" required id="others" />
         </p>
       </fieldset>
       <label> Phone No : </label>
@@ -53,6 +58,14 @@
         </select>
       </p>
       <p>
+        Validate Proof of yours!!
+        <h6>(Like Aadhaar or anything!!)</h6>
+
+        <p>AADHAR_NO : <textarea name="aadhar" id="aadhar" required cols="30" rows="1"></textarea></p>
+        
+        PANCARD_NO : <textarea name="tn" id="tn" cols="30" rows="1"></textarea>
+      </p>
+      <p>
         What you can do as in house workk!!:
         <textarea
           name="What you can do as in house workk!!"
@@ -74,7 +87,7 @@
       </p>
       <p>What you can be ?!</p>
       <p>
-        <select name="sellecttt" id="sellecttt">
+        <select name="sellecttt" required id="sellecttt">
             <option value="">Select your work</option>
             <option value="Maid">Maid</option>
             <option value="Housekeeper">Housekeeper</option>
